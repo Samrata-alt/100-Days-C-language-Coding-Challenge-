@@ -11,7 +11,7 @@ int main(){
     for(i=0;i<s;i++){
             scanf("%d",&a[i]);
     }
-    //
+    //Counts positive negative and zero elements in array
     for(i=0;i<s;i++){
         if(a[i]>0){
             c+=1;
@@ -29,4 +29,5 @@ int main(){
     printf("Zero:%d\n",c2);
     return 0;
 }
+
     
