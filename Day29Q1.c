@@ -8,6 +8,7 @@ int main(){
     scanf("%d",&s);
     //Takes value from user for array
     for(i=0;i<s;i++){
+            printf("Enter a element:");
             scanf("%d",&a[i]);
     }
     //Addition of array elements
@@ -16,4 +17,5 @@ int main(){
     }
     printf("%d ",b);
     return 0;
+
 }
